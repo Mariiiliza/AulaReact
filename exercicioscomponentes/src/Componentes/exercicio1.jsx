@@ -1,10 +1,14 @@
-export default function Exercicio1 ( {fah} )
-{
-    let celsius = (fah - 32) * 5/9;
+export default function Exercicio1 ( {numero} ) {
+
+   let quadrado= number (numero) * number * number (number);
+   let cubo= number (numero) * number (numero) * number (numero);
 
     return (
-        <div>
-        A temperatura {fah} °F em Celsius é {celsius} °C.
-        </div>
-    )
+<div>
+    <p>o quadrado do numero {numero} é {quadrado}</p>
+    <br />
+   <p>o cubo do numero {numero} é {cubo}</p>
+</div>
+);
 }
+      

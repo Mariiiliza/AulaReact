@@ -1,5 +1,4 @@
 import Exercicio1 from "./exercicio";
-
 export default function App()
 
 {
