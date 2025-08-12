@@ -3,7 +3,7 @@ export default function SaoPaulo ()
 {
     return(
         <div>
-            <h1>Seja bem vindo ao Estado de</h1>
+            <h1>Seja bem vindo ao Estado de São Paulo</h1>
         
 
         <p>
@@ -11,7 +11,7 @@ export default function SaoPaulo ()
             </p>
 
             <p>
-                <img src="" />
+                <img src="/SP.png" />
                 </p>
                 <p>
                     <a href="/">Voltar para Home</a>
@@ -19,11 +19,5 @@ export default function SaoPaulo ()
 
 </div>
 
-
-
-
-
-
-     
     )
 }
