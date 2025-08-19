@@ -6,6 +6,19 @@ import RioDeJaneiro from "./Paginas/RioDeJaneiro";
 import EspiritoSanto from "./Paginas/EspiritoSanto";
 import Paraná from "./Paginas/Paraná";
 import RioGrandeDoSul from "./Paginas/RioGrandeDoSul";
+import SantaCatarina from "./Paginas/SantaCatarina";
+import Acre from "./Paginas/Acre";
+import DistritoFederal from "./Paginas/DistritoFederal";
+import Para from "./Paginas/Para";
+import Alagoas from "./Paginas/Alagoas";
+import Amapa from "./Paginas/Amapa";
+import Amazonas from "./Paginas/Amazonas";
+import Bahia from "./Paginas/Bahia";
+import Ceara from "./Paginas/Ceara";
+import Goias from "./Paginas/Goias";
+import Maranhao from "./Paginas/Maranhao";
+
+
 export default function App()
 {
     return (
@@ -18,6 +31,17 @@ export default function App()
             <Route path= "/es" element= {<EspiritoSanto />} />
             <Route path= "/pr" element= {<Paraná />} />
             <Route path= "/rs" element= {<RioGrandeDoSul />} />
+            <Route path= "/sc" element= {<SantaCatarina />} />
+            <Route path= "/acre" element= {<Acre />} />
+            <Route path= "/distritofederal" element= {<DistritoFederal />} />
+            <Route path= "/para" element= {<Para />} />
+            <Route path= "/alagoas" element= {<Alagoas />} />
+            <Route path= "/amapa" element= {<Amapa />} />
+            <Route path= "/amazonas" element= {<Amazonas />} />
+            <Route path= "/bahia" element= {<Bahia />} />
+            <Route path= "/Ceara" element= {<Ceara />} />
+            <Route path= "/goias" element= {<Goias />} />
+            <Route path= "/maranhao" element= {<Maranhao />} />
         </Routes>
         </BrowserRouter>
     );

@@ -23,6 +23,39 @@ export default function Home ()
         <ul>
             <li><a href="/rs">Rio Grande Do Sul</a></li>
         </ul>
+        <ul>
+            <li><a href="/sc">Santa Catarina</a></li>
+        </ul>
+        <ul>
+            <li><a href="/acre">Acre</a></li>
+        </ul>
+        <ul>
+            <li><a href="/distritofederal">distritofederal</a></li>
+        </ul>
+        <ul>
+            <li><a href="/para">para</a></li>
+        </ul>
+        <ul>
+            <li><a href="/alagoas">alagoas</a></li>
+        </ul>
+        <ul>
+            <li><a href="/amapa">amapa</a></li>
+        </ul>
+        <ul>
+            <li><a href="/amazonas">amazonas</a></li>
+        </ul>
+        <ul>
+            <li><a href="/bahia">Bahia</a></li>
+        </ul>
+        <ul>
+            <li><a href="/ceara">Ceara</a></li>
+        </ul>
+        <ul>
+            <li><a href="/goias">Goias</a></li>
+        </ul>
+        <ul>
+            <li><a href="/maranhao">Maranhao</a></li>
+        </ul>
         </div>
     )
 }
