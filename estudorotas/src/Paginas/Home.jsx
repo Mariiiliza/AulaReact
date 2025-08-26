@@ -56,6 +56,37 @@ export default function Home ()
         <ul>
             <li><a href="/maranhao">Maranhao</a></li>
         </ul>
-        </div>
+     
+        <ul>
+        <li><a href="/matogrosso">Mato Grosso</a></li>
+    </ul>
+    <ul>
+        <li><a href="/matogrossodosul">Mato Grosso Do Sul</a></li>
+    </ul>
+    <ul>
+        <li><a href="/paraiba">Paraíba</a></li>
+    </ul>
+    <ul>
+        <li><a href="/pernambuco">Pernambuco</a></li>
+    </ul>
+    <ul>
+        <li><a href="/piaui">Piauí</a></li>
+    </ul>
+    <ul>
+        <li><a href="/riograndedonorte">Rio Grande Do Norte</a></li>
+    </ul>
+    <ul>
+        <li><a href="/rondonia">Rondônia</a></li>
+    </ul>
+    <ul>
+        <li><a href="/roraima">Roraima</a></li>
+    </ul>
+    <ul>
+        <li><a href="/sergipe">Sergipe</a></li>
+    </ul>
+    <ul>
+        <li><a href="/tocantins">Tocantins</a></li>
+    </ul>
+    </div>
     )
 }
