@@ -1,4 +1,21 @@
+import { useState } from "react";
 export default function Exemplo2() {
+
+  const[numero1, setNumero1]= useState(22);
+  const[numero2, setNumero2]= useState(5);
+  const[resultado, setResultado]= useState();
+  const[nome1, setNome1]= useState();
+
+  function somar()
+  {
+let n1, n2, soma, nome1;
+n1 = Number(numero1);
+n2 = Number(numero2);
+soma = (n1+n2)/2;
+
+setResultado("A soma dos números " + soma);
+setNome1("seu nome é " + nome1);
+  }
   return (
     <div>
       <h1>Exemplo 2</h1>
@@ -14,16 +31,24 @@ export default function Exemplo2() {
 
           <p>
             Nota 1 <br />
-            <input type="text" />
+            <input type="text" value={numero1}
+    onChange={ (e) => setNumero1(e.target.value) } /> 
           </p>
           <p>
             Nota 2 <br />
-            <input type="text" />
+            <input type="text" value={numero2}
+    onChange={ (e) => setNumero2(e.target.value) } />
           </p>
 
           <p>
-            <input type="button" value="Calcular" />
+            <input type="button" value="Calcular"onClick={somar} />
           </p>
+          <p>
+    seu nome = {nome1} <br />
+    Numero1 = {numero1} <br />
+    Numero2 = {numero2} <br />
+    {resultado}
+    </p>
           <a href="/">Voltar</a>
         </form>
 
