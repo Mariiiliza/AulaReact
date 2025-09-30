@@ -4,17 +4,18 @@ export default function Exemplo2() {
   const[numero1, setNumero1]= useState(22);
   const[numero2, setNumero2]= useState(5);
   const[resultado, setResultado]= useState();
-  const[nome1, setNome1]= useState();
+  const[nome, setNome]= useState();
 
   function somar()
   {
 let n1, n2, soma, nome1;
 n1 = Number(numero1);
 n2 = Number(numero2);
+nome1 = Number(nome);
 soma = (n1+n2)/2;
 
 setResultado("A soma dos números " + soma);
-setNome1("seu nome é " + nome1);
+setNome("seu nome é " + nome1);
   }
   return (
     <div>
@@ -26,7 +27,8 @@ setNome1("seu nome é " + nome1);
         <form>
           <p>
             Nome do Aluno <br />
-            <input type="text" />
+            <input type="text" value={nome}
+            onChange={ (e) => setNome(e.target.value) } /> 
           </p>
 
           <p>
@@ -44,9 +46,9 @@ setNome1("seu nome é " + nome1);
             <input type="button" value="Calcular"onClick={somar} />
           </p>
           <p>
-    seu nome = {nome1} <br />
-    Numero1 = {numero1} <br />
-    Numero2 = {numero2} <br />
+    seu nome = {nome} <br />
+    Numero 1 = {numero1} <br />
+    Numero 2 = {numero2} <br />
     {resultado}
     </p>
           <a href="/">Voltar</a>
