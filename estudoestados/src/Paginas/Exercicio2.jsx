@@ -1,16 +1,16 @@
 import { useState } from "react";
 export default function Exercicio2() {
 
-  const[fahrenheit, setNumero]= useState(0);
+  const[celsius, setNumero]= useState(0);
   const[resultado, setResultado]= useState();
 
 
   function calcular()
 {
   
-  let fahrenheit = quadrado * Number(fahrenheit);
+  let fahrenheit = ((celsius-32)*5)/9;
 
-  setResultado("o quadrado é " + );
+  setResultado("a temperatura em Celsius é " + fahrenheit );
 
 }
     return (
@@ -19,6 +19,7 @@ export default function Exercicio2() {
     
       <div className="conteudo">
         <form>
+          
           <p>
             Digite a temperatura em graus fahrenheit: <br />
             <input type="text" value={celsius}
