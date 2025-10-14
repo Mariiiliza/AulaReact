@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function Exercicio3() {
+export default function Exercicio4() {
 
   const[base, setNumero1]= useState(0);
   const[altura, setNumero2]= useState(0);
@@ -16,27 +16,34 @@ export default function Exercicio3() {
 }
     return (
         <div>
-            <h1>Exercicio 2 </h1>
+            <h1>Exercicio 4 </h1>
     
       <div className="conteudo">
         <form>
           
           <p>
-            Digite a temperatura em graus fahrenheit: <br />
-            <input type="text" value={celsius}
-            onChange={ (e) => setNumero(e.target.value)}/>
+            Digite a base do triangulo: <br />
+            <input type="text" value={base}
+            onChange={ (e) => setNumero1(e.target.value)}/>
+          </p>
+
+          <p>
+            Digite a altura do triangulo: <br />
+            <input type="text" value={altura}
+            onChange={ (e) => setNumero2(e.target.value)}/>
           </p>
         
       
           <p>
-            <input type="button" value="Exercicio2" 
+            <input type="button" value="Exercicio4" 
             onClick={calcular} />
           </p>
 
           <p>
             <b>Resultado</b> <br />
-            o número digitado foi {celsius} <br />
-            Resultado: {resultado}
+            base é = {base} <br />
+            altura é = {altura} <br />
+             {resultado} <br />
           </p>
           <a href="/">Voltar</a>
         </form>
